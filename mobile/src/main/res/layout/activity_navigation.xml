@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:weightSum="5">
+
+    <TableRow android:layout_weight="1"
+        android:layout_width="0dp">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:text="PI" />
+
+        <ImageButton
+            android:id="@+id/upButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/arrow_up_bold"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:text="+/-" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1"
+        android:layout_width="0dp">
+
+        <ImageButton
+            android:id="@+id/leftButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/arrow_left_bold"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/selectButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/checkbox_blank"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/rightButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/arrow_right_bold"
+            android:scaleType="fitCenter" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1"
+        android:layout_width="0dp">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/undo"
+            android:onClick="buttonPress"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageButton
+            android:id="@+id/downButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow_down_bold"
+            android:onClick="buttonPress"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu"
+            android:onClick="buttonPress"
+            android:scaleType="fitCenter" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1"
+        android:layout_width="0dp">
+
+        <ImageButton
+            android:id="@+id/jumpRWNDButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/skip_previous"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/play"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/jumpFFWDButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:src="@drawable/skip_next"
+            android:scaleType="fitCenter" />
+
+
+    </TableRow>
+    <TableRow android:layout_weight="1"
+        android:layout_width="0dp">
+
+        <Button
+            android:id="@+id/videosButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:text="Videos"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/recordingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:text="Recordings"
+            android:scaleType="fitCenter" />
+        <Button
+            android:id="@+id/zoneMinderButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonPress"
+            android:text="ZM"
+            android:scaleType="fitCenter" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
